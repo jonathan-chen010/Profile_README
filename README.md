@@ -64,34 +64,29 @@ My coursework spans the full ML stack — from classical statistical methods and
 ## 🏆 Featured Projects
 
 ### ⭐ [Yelp Hybrid Recommender System](https://github.com/jonathan-chen010/yelp-hybrid-recommender)
-> **DSCI 553 Class Competition Project** | Python, PySpark, XGBoost
+> | Python, PySpark, XGBoost, Apache Spark, NumPy
 
 Production-grade hybrid recommender combining item-based collaborative filtering with a 78-feature XGBoost regressor, blended adaptively by neighborhood density. **Achieved RMSE 0.9788** (beating the 0.9800 baseline) within a 355-second runtime budget on Apache Spark RDDs.
 
 ### ⭐ [Waste Classification with Transfer Learning](https://github.com/jonathan-chen010/waste-classification-transfer-learning)
-> **DSCI 552 Final Project** | Python, TensorFlow, Keras, OpenCV
+> | Python, TensorFlow, Keras, OpenCV, NumPy
 
 Multi-class image classification of 9 waste categories via deep transfer learning. Benchmarks four pre-trained ImageNet backbones (ResNet50, ResNet101, EfficientNetB0, VGG16) with frozen feature extractors, image augmentation, batch normalization, dropout, and early stopping.
 
 ### [Predictive Maintenance — Scania APS Failure](https://github.com/jonathan-chen010/aps-failure-predictive-maintenance)
-> **DSCI 552 HW6** | Python, scikit-learn, XGBoost, imbalanced-learn
+> | Python, scikit-learn, XGBoost, imbalanced-learn
 
 Failure prediction on 60K heavy truck sensor records with severe class imbalance (~1.7% positive). Compares Random Forests with class-weighting against L1-penalized gradient-boosted model trees, applying SMOTE inside CV folds to prevent data leakage.
 
 ### [BFR Clustering for Memory-Constrained Datasets](https://github.com/jonathan-chen010/bfr-clustering)
-> **DSCI 553 HW6** | Python, NumPy, scikit-learn
+> | Python, NumPy, scikit-learn
 
 Bradley-Fayyad-Reina algorithm implemented from scratch for constant-memory clustering of datasets exceeding RAM. Uses Mahalanobis distance and statistical cluster summaries (N, SUM, SUMSQ) to process data in chunks while maintaining >98% accuracy.
 
 ### [Streaming Algorithms — Bloom, Flajolet-Martin, Reservoir](https://github.com/jonathan-chen010/streaming-algorithms)
-> **DSCI 553 HW5** | Python, Scala, Spark
+> | Python, Scala, Spark, hashlib
 
 Three classical streaming algorithms implemented from scratch in **both Python and Scala** for approximate query processing under memory constraints — set membership, cardinality estimation with median-of-means aggregation, and fixed-memory uniform sampling.
-
-### [LSH & Recommender Systems on Yelp](https://github.com/jonathan-chen010/lsh-yelp-recommenders)
-> **DSCI 553 HW3** | Python, PySpark, XGBoost
-
-Locality-Sensitive Hashing with custom MinHash families for sublinear similarity search (>99% precision / >97% recall in <100s), plus three recommender systems (item-based CF, XGBoost regression, hybrid ensemble) on the full Yelp dataset.
 
 ---
 
