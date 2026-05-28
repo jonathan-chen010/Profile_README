@@ -104,18 +104,6 @@ Locality-Sensitive Hashing with custom MinHash families for sublinear similarity
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jonathan-chen010&show_icons=true&theme=default&hide_border=true" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jonathan-chen010&layout=compact&theme=default&hide_border=true" alt="Top Languages" />
-</p>
-
----
-
 ## 📫 Get in Touch
 
 I'm **open to full-time roles** in Data Science, ML Engineering, and Data Engineering.
